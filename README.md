@@ -6,10 +6,10 @@ HPM Signing is a project designed to facilitate the implementation of Hardware P
 ## Features
 - Scripts to generate a siging key pair
 - Scripts to sign BIOS/CPLD
-- Scripts to generate binary image following HPM.1 spec
-https://www.picmg.org/openstandards/hardware-platform-management/
-
-https://www.picmg.org/product/hardware-platform-management-ipm-controller-firmware-upgrade-specification/
+This repository includes scripts to generate binary images following the HPM.1 specification. The HPM.1 specification is a standard for hardware platform management, particularly for IPM (Intelligent Platform Management) controllers.
+For more information on the HPM.1 specification, you can refer to the following links:
+- [Hardware Platform Management Overview](https://www.picmg.org/openstandards/hardware-platform-management/)
+- [HPM.1 IPM Controller Firmware Upgrade Specification](https://www.picmg.org/product/hardware-platform-management-ipm-controller-firmware-upgrade-specification/)
 
 ## Usage
 To use the HPM Signing tool, follow these steps:
@@ -32,4 +32,4 @@ To use the HPM Signing tool, follow these steps:
     The final HPM file out_file.hpm will be generated.
 
 ## Contact
-For any questions or feedback, please contact [zheng3@msn.com](mailto:zheng3@msn.com).
+For any questions or feedback, please contact [Jim Yuan](mailto:zheng3@msn.com).
