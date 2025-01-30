@@ -1,0 +1,45 @@
+{
+    "HPMHeader": {
+        "FormatVersion":    "0x01",
+        "DeviceID":         "0x02",
+        "ManufacturerID":   "0x001234",
+        "ProductID":        "0x0102",
+        "ImageCapabilities": "0x09",
+        "ImageCapDetails": {
+            "ServiceAffected": {
+                "bit": "[3:3]",
+                "value": "0x1",
+                "description": "Indicates whether payload and/or subsidiary FRUs are affected."
+            },
+            "ManualRollback": {
+                "bit": "[2:2]",
+                "value": "0x0",
+                "description": "Indicates whether manual rollback is supported."
+            },
+            "AutoRollback": {
+                "bit": "[1:1]",
+                "value": "0x0",
+                "description": "Indicates whether automatic rollback is supported."
+            },
+            "SelfTest": {
+                "bit": "[0:0]",
+                "value": "0x1",
+                "description": "Indicates whether self-test is supported."
+            }
+        },
+        "SelfTestTimeout":  "0x1",
+        "RollbackTimeout":  "0x0",
+        "InaccessibilityTimeout": "0x3",
+        "EarliestCompatRev": "0x00",
+        "FirmwareRevision": "0x01",
+        "OEMDataLength": "0x00"
+    },
+    "UpgradeRecord": {
+        "UpgradeAction":    "0x2"   
+    },
+    "OEMData":  {
+        "SectionFlashing":  "0x0",
+        "SignedHashSupported":  "0x01",
+        "Reserved": "0x00"
+    }
+}

@@ -1,0 +1,24 @@
+{
+        "ImageCapabilities": {
+            "ServiceAffected": {
+                "bit": 3,
+                "value": "0x1",
+                "description": "Indicates whether the firmware image affects the service partition."
+            },
+            "ManualRollback": {
+                "bit": 2,
+                "value": "0x0",
+                "description": "Indicates whether manual rollback is supported."
+            },
+            "AutoRollback": {
+                "bit": 1,
+                "value": "0x1",
+                "description": "Indicates whether automatic rollback is supported."
+            },
+            "SelfTest": {
+                "bit": 0,
+                "value": "0x1",
+                "description": "Indicates whether self-test is supported."
+            }
+        }
+}
